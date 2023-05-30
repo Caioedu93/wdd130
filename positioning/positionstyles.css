@@ -44,17 +44,17 @@
 .red2 {
   width: 100px; 
   height: 100px; 
-  background-color: red; 
+  background-color: red;
 } 
-.green2 {   
+.green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
   grid-column: 2;
-  grid-row: 2;    
-  z-index: +1; 
+  grid-row: 2;
+  z-index: +1;
  
-  
+ 
 } 
 .yellow2 {
   width: 100px; 
