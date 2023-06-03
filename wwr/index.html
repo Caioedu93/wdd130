@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <title>Whitewater Rafting Vacations |Wet n' Wild Boating | Home</title>
+    <style>
+        .rivers-card, .camping-card, .rapids-card{
+          width: 60%;
+          height: 60%;
+          background: white;
+          
+        transition: transform .5s;
+        transition-timing-function: linear;
+        }
+        
+        .rivers-card:hover, .camping-card:hover, .rapids-card:hover {
+          opacity: .6;
+          transform: scale(1.1);
+       }
+        </style> 
 </head>
 <body>
     <div id= "content"></div>
@@ -34,9 +49,9 @@
         </section>
     </div>
     <main class="home-grid">
-        <section class="rivers card">
+        <section class="rivers-card">
             <img class="card-img" src="images/rivers.jpg" alt="river in forest">
-            <img class="icon" src="images/river_icon.png" alt="ricer icon">
+            <img class="icon" src="images/river_icon.png" alt="river icon">
             <h2>Rivers</h2>
         </section>
         <section class="camping-card">
@@ -54,8 +69,9 @@
     <section class="msg">
         <h2>More Than Just The Thrill</h2>
         <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
-        <a class='join' href="rivers.html">Join Us</a>
-    </section>    
+        <a class='join' href="rivers.html">Join Us</a>   
+    </section>
+       
 </main>
     <footer>
         <p>Wet n' Wild &copy; 2023 - Caio de Paula</p>
