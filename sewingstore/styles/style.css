@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Serif+Makasar&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #873148  ;
+  --secondary-color: #DE4B77;
+  --accent1-color: #C1B2B6;
+  --accent2-color: #99425D;
+  --accent3-color:#9B6278;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Dancing Script";
+  --paragraph-font: 'Noto Serif Makasar', Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #DE4B77;  /* headlines on a white background */ 
+  --headline-color-on-color: #C1B2B6; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #DE4B77; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #C1B2B6; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #873148  ;
+  --nav-link-color: #DE4B77;
+  --nav-background-color: #873148;
+  --nav-hover-link-color: #C1B2B6;
+  --nav-hover-background-color: #9B6278;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    padding: 1em;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+    font-family : var(--heading-font);
+  }
+  header > p{
+    font-family : var(--heading-font);
+    color: var(--headline-color-on-color);
+    font-size:4em;
+  }
+  header, a{
+    font-family: var(--paragraph-font);
+    font-size: larger;
+  }
+  
+
+.home-title{
+    font-family: 'Dancing Script','Yaldevi';
+    font-size: 54em;
+    color:#C1B2B6 ;
+    margin-top: 10px;
+}
+#logo {
+    grid-column: 3;
+    grid-row: 1;
+    width: 250px;
+    border-radius: 30%;
+}
+nav {
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: #C1B2B6;
+}
+nav a:hover{
+    background-color:#DE4B77;
+    color: #C1B2B6;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+#hero-img{
+    width: 100%; 
+    height: 300px;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 2fr auto;
+    grid-template-rows: 2fr auto;    
+}
+body {
+    max-width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+
+.clothes {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin:auto;
+    border: 10px solid #DE4B77;
+}
+
+.text-clothes{
+    --paragraph-font:'Yaldevi';
+    font-size: larger;
+    color: #DE4B77;
+    margin-top: auto;
+    margin-bottom: auto;
+}  
+.repair{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin:auto;
+    border: 10px solid #DE4B77;
+}   
+.text-repair, p{
+    --paragraph-font:'Yaldevi';
+    font-size:larger;
+    color: #DE4B77;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+footer{
+    background-color:#873148;
+    color:#C1B2B6;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: #C1B2B6;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #C1B2B6;
+    
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+    background-color:#DE4B77;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
