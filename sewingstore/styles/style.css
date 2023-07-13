@@ -287,11 +287,20 @@ footer .social img {
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #C1B2B6;
     }
-    .clothes, .repair{ 
+    .card-img{ 
         margin: 50px auto;
         width: 60%;
+    }
+    .clothes{
+      width: fit-content;
+    }
+    .repair{
+      width: fit-content;
+    }
+    .location{
+      width:fit-content;
     }
     #background {
         display: none;
