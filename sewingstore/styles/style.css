@@ -283,7 +283,7 @@ footer .social img {
         margin-top: 0;
     }
     .text-clothes,.text-repair{
-        display: none;
+        margin: auto;
     }
     .home-title {
         font-size: 25px;
@@ -300,9 +300,8 @@ footer .social img {
       width: fit-content;
     }
     .location{
-      width:fit-content;
-      display: block;
-      height: auto;
+      margin: 25px;
+      width: 18px;
     }
     #background {
         display: none;
