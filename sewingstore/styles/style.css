@@ -2,26 +2,26 @@
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #873148  ;
-  --secondary-color: #DE4B77;
-  --accent1-color: #C1B2B6;
-  --accent2-color: #99425D;
-  --accent3-color:#9B6278;
+  --primary-color: #124737 ;
+  --secondary-color: #254D4D;
+  --accent1-color: #D9DDDC;
+  --accent2-color: #8B4FFB;
+  --accent3-color:#FAFFFF;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Dancing Script";
   --paragraph-font: 'Noto Serif Makasar', Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #DE4B77;  /* headlines on a white background */ 
-  --headline-color-on-color: #C1B2B6; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #DE4B77; /* paragraph text on a white background */ 
+  --headline-color-on-white: #254D4D;  /* headlines on a white background */ 
+  --headline-color-on-color: #8B4FFB; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #254D4D; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #C1B2B6; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #873148  ;
-  --nav-link-color: #DE4B77;
-  --nav-background-color: #873148;
-  --nav-hover-link-color: #C1B2B6;
-  --nav-hover-background-color: #9B6278;
+  --paragraph-background-color: #124737  ;
+  --nav-link-color: #254D4D;
+  --nav-background-color: #124737;
+  --nav-hover-link-color: #8B4FFB;
+  --nav-hover-background-color: #d9dddc;
 }
 #content {
     max-width: 1600px;
@@ -48,29 +48,29 @@ header {
 .home-title{
     font-family: 'Dancing Script','Yaldevi';
     font-size: 54em;
-    color:#C1B2B6 ;
+    color:#d9dddc ;
     margin-top: 10px;
 }
 #logo {
     grid-column: 3;
     grid-row: 1;
     width: 250px;
-    border-radius: 30%;
+    border-radius: 10%;
 }
 nav {
     text-align: center;
-    color:white;
+    color:#d9dddc;
     text-decoration: none;
     padding: 35px;
     display: flex;
     justify-content: space-around;
 }
 nav a{
-    color: #C1B2B6;
+    color: #d9dddc;
 }
 nav a:hover{
-    background-color:#DE4B77;
-    color: #C1B2B6;
+    background-color:#8B4FFB;
+    color: #d9dddc;
     padding: 15px 30px;
     border-radius: 5px;
 }
@@ -94,13 +94,13 @@ body {
     grid-column: 1/2;
     grid-row: 1/2;
     margin:auto;
-    border: 10px solid #DE4B77;
+    border: 10px solid #8B4FFB;
 }
 
 .text-clothes{
     --paragraph-font:'Yaldevi';
     font-size: larger;
-    color: #DE4B77;
+    color: #254D4D;
     margin-top: auto;
     margin-bottom: auto;
 }  
@@ -109,23 +109,23 @@ body {
     grid-column: 2/3;
     grid-row: 2/3;
     margin:auto;
-    border: 10px solid #DE4B77;
+    border: 10px solid #8B4FFB;
 }   
 .text-repair, p{
     --paragraph-font:'Yaldevi';
     font-size:larger;
-    color: #DE4B77;
+    color: #254D4D;
     margin-top: auto;
     margin-bottom: auto;
 }
 .service, p{
     --paragraph-font:'Yaldevi';
     font-size:xx-large;
-    color: #DE4B77;
+    color: #254D4D;
     margin: auto;   
 }
 h2{
-  color: #DE4B77;
+  color: #254D4D;
 }
 .directions{
   font-size:xx-large;
@@ -145,8 +145,8 @@ h2{
   margin: auto;
 }
 footer{
-    background-color:#873148;
-    color:#C1B2B6;
+    background-color:#124737;
+    color:#D9DDDC;
     text-decoration: none;
     padding: 25px 50px;
     margin-top: 50px;
@@ -155,19 +155,20 @@ footer{
     align-items: center;
 }
 footer a{
-    color: #C1B2B6;
+    color: #D9DDDC;
     text-decoration: none;
 }
 footer a:hover{
-    color: #C1B2B6;
+    color: #d9dddc;
     
 }
 footer p {
+  color: #D9DDDC;
     font-size: 1.2em;
 }
 footer p a:hover{
     text-decoration: underline;
-    background-color:#DE4B77;
+    background-color:#254D4D;
     padding: 15px 30px;
     border-radius: 5px;
 }
